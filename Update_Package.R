@@ -8,6 +8,7 @@ document()
 setwd("..") # install from parent directory
 install("TIMI")
 library("TIMI")
-# devtools::check()
 
+
+# devtools::check()
 # install_github("th-zelniker/TIMI")
