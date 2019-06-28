@@ -1,4 +1,5 @@
-#' Rounding of numbers (instead of)
+#' Rounding of Numbers
+#'
 #' R  “rounds to even” when rounding off a 5. This formula rounds numbers ending in .5  up ("rounding in commerce").
 #' This formula is based on http://alandgraf.blogspot.com/2012/06/rounding-in-r.html
 #' @param x a numeric vector

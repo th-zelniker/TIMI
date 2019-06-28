@@ -1,6 +1,5 @@
 
 # Update package ----------------------------------------------------------
-
 library(roxygen2)
 library(devtools)
 load_all()
@@ -9,12 +8,13 @@ setwd("..") # install from parent directory
 install("TIMI")
 library("TIMI")
 
+# Test Package:
+# devtools::test()
 
-# devtools::check()
+# Push Commits in Shell
 # git remote add TIMI git@github.com:th-zelniker/TIMI.git
 # git push -u TIMI master
 
 
-
-# install_github("th-zelniker/TIMI")
-# here we add
+# Install package from github:
+# devtools::install_github("th-zelniker/TIMI")

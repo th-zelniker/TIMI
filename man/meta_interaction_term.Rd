@@ -2,7 +2,7 @@
 % Please edit documentation in R/meta_interaction.R
 \name{meta_interaction_term}
 \alias{meta_interaction_term}
-\title{Calculate the interaction term incl. 95%-CI when the RR or HR for two subgroups are given}
+\title{Calculate the interaction term incl. 95 Percent-CI when the RR or HR for two subgroups are given.}
 \usage{
 meta_interaction_term(Group_A_HR, Group_A_CI_lower, Group_A_CI_upper,
   Group_B_HR, Group_B_CI_lower, Group_B_CI_upper)
@@ -21,8 +21,8 @@ meta_interaction_term(Group_A_HR, Group_A_CI_lower, Group_A_CI_upper,
 \item{Group_B_CI_upper}{Upper CI of Group B}
 }
 \value{
-Interaction term as HR/RR incl. 95%-CI
+Interaction term as HR/RR incl. 95 percent -CI
 }
 \description{
-Calculate the interaction term incl. 95%-CI when the RR or HR for two subgroups are given
+Calculate the interaction term incl. 95 Percent-CI when the RR or HR for two subgroups are given.
 }

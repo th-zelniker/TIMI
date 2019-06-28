@@ -2,9 +2,7 @@
 % Please edit documentation in R/round2.R
 \name{round2}
 \alias{round2}
-\title{Rounding of numbers (instead of)
-R  “rounds to even” when rounding off a 5. This formula rounds numbers ending in .5  up ("rounding in commerce").
-This formula is based on http://alandgraf.blogspot.com/2012/06/rounding-in-r.html}
+\title{Rounding of Numbers}
 \usage{
 round2(x, digits = 1)
 }
@@ -14,7 +12,6 @@ round2(x, digits = 1)
 \item{digits}{integer indicating the number of decimal places}
 }
 \description{
-Rounding of numbers (instead of)
 R  “rounds to even” when rounding off a 5. This formula rounds numbers ending in .5  up ("rounding in commerce").
 This formula is based on http://alandgraf.blogspot.com/2012/06/rounding-in-r.html
 }
