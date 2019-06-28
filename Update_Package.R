@@ -11,4 +11,10 @@ library("TIMI")
 
 
 # devtools::check()
+# git remote add TIMI git@github.com:th-zelniker/TIMI.git
+# git push -u TIMI master
+
+
+
 # install_github("th-zelniker/TIMI")
+# here we add
