@@ -47,8 +47,7 @@ power_nb <-   function (n = NULL,
     stop("'r1' must be numeric and > 0")
   if (!is.numeric(duration) || duration <= 0)
     stop("'duration' must be numeric and > 0")
-  if (!is.numeric(theta) || theta <= 0)
-    stop("'theta' must be numeric and > 0")
+
   if (!is.numeric(ssize.ratio) || ssize.ratio <= 0)
     stop("'ssize.ratio' must be numeric and > 0")
 
@@ -86,12 +85,14 @@ power_nb <-   function (n = NULL,
 
   n1 <- ssize.ratio * n
 
-  data.frame(n = n,
+  data.frame(n0 = n,
              n1 = n1,
+             ssize = n + n1,
              r0 = r0,
              RR = RR,
              k = k,
              duration = duration,
              alpha = alpha,
-             power = power)
+             power = power,
+             approach = approach)
 }

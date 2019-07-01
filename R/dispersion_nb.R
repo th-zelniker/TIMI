@@ -1,9 +1,9 @@
 #' Estimate the negative binomial dispersion parameter k (according to Zhu H and Lakkis H, Stat Med 2014)
 #'
-#' @param r Mean event rate
-#' @param CI_lower Lower confidence interval of the rate
-#' @param CI_lower Upper confidence interval of the rate
-#' @param exposure_time Exposure time in years
+#' @param r Event rate per patient year
+#' @param CI_lower Lower confidence interval of r
+#' @param CI_lower Upper confidence interval of r
+#' @param exposure_time Total exposure time in years
 #' @return Negative binomial dispersion parameter k
 #' @export
 

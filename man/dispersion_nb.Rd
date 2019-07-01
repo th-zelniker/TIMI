@@ -7,13 +7,13 @@
 dispersion_nb(r, CI_lower, CI_upper, exposure_time)
 }
 \arguments{
-\item{r}{Mean event rate}
+\item{r}{Event rate per patient year}
 
-\item{CI_lower}{Lower confidence interval of the rate}
+\item{CI_lower}{Lower confidence interval of r}
 
-\item{exposure_time}{Exposure time in years}
+\item{exposure_time}{Total exposure time in years}
 
-\item{CI_lower}{Upper confidence interval of the rate}
+\item{CI_lower}{Upper confidence interval of r}
 }
 \value{
 Negative binomial dispersion parameter k
