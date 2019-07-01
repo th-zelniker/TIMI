@@ -16,7 +16,7 @@ get_ARR_confint(trt_n, trt_N, placebo_n, placebo_N)
 \item{placebo_N}{Total number of patients in the placebo group}
 }
 \value{
-P-value
+ARR with CI
 }
 \description{
 Calculate Absolute Risk Difference, the SE, and confidence interval

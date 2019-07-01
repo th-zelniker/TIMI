@@ -4,7 +4,7 @@
 #' @param trt_N Total number of patients in the treatment group
 #' @param placebo_n Number of events with Placebo
 #' @param placebo_N Total number of patients in the placebo group
-#' @return P-value
+#' @return ARR with CI
 #' @export
 
 get_ARR_confint <- function(trt_n, trt_N, placebo_n, placebo_N) {
