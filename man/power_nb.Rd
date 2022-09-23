@@ -5,8 +5,18 @@
 \title{Calculate sample size or power for comparing 2 negative binomial rates
 (either n or power needs to included)}
 \usage{
-power_nb(n = NULL, r0, r1, RR, k, duration = 1, ssize.ratio = 1,
-  alpha = 0.025, power = NULL, approach = 3)
+power_nb(
+  n = NULL,
+  r0,
+  r1,
+  RR,
+  k,
+  duration = 1,
+  ssize.ratio = 1,
+  alpha = 0.025,
+  power = NULL,
+  approach = 3
+)
 }
 \arguments{
 \item{n}{Sample Size; Leave NULL to calculate power}

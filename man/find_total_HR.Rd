@@ -4,8 +4,14 @@
 \alias{find_total_HR}
 \title{Calculate the HR of the Total Cohort given HRs, Number of Pts Included, and Target Events}
 \usage{
-find_total_HR(n_CVD, n_MRF, HR_CVD, HR_MRF, target_events,
-  ratio_event_rate_CVDvsMRF)
+find_total_HR(
+  n_CVD,
+  n_MRF,
+  HR_CVD,
+  HR_MRF,
+  target_events,
+  ratio_event_rate_CVDvsMRF
+)
 }
 \arguments{
 \item{n_CVD}{Number of patients with cardiovascular disease}
